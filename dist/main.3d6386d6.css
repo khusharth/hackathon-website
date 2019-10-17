@@ -956,6 +956,7 @@ body {
 }
 
 .about-t {
+  margin-top: 1.5%;
   position: absolute;
   top: -1%;
   left: 1%;
@@ -2038,17 +2039,6 @@ menu button:hover span:last-of-type {
     color: rgba(159, 229, 37, 0.767);
   }
 
-  .cBreak-container {
-    width: 100%;
-    margin: 0 auto;
-    display: inline-block;
-  }
-
-  .cBreak-container .cBreak {
-    width: 100%;
-    animation: flick 1s ease 1s, a 5s linear 1s infinite;
-  }
-
   button {
     background-color: transparent;
   }
@@ -2125,6 +2115,7 @@ menu button:hover span:last-of-type {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
+  margin: 0 auto;
   background-color: #3770ff;
   border-radius: 3px;
   border: none;
@@ -2138,32 +2129,8 @@ menu button:hover span:last-of-type {
   font-weight: 600;
   padding: 12px 20px;
   text-align: center;
-  position: relative;
-  left: -15%;
 }
 
-@media screen and (max-width: 756px) {
-  #devfolio-apply-now {
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    background-color: #3770ff;
-    border-radius: 3px;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 18px;
-    font-weight: 600;
-    padding: 12px 20px;
-    text-align: center;
-    position: relative;
-    left: 0%;
-  }
-}
 #devfolio-apply-now:not([disabled]) {
   cursor: pointer;
 }
@@ -2172,20 +2139,7 @@ menu button:hover span:last-of-type {
   background-color: #2954bf !important;
 }
 
-.devfolio-button {
-  position: absolute;
-  left: 44%;
-  align-content: center;
-}
-
 @media screen and (max-width: 700px) {
-  .devfolio-button {
-    position: absolute;
-    top: 82%;
-    left: 25%;
-    align-content: center;
-  }
-
   .socialHandler {
     position: relative;
     top: 25vh;
